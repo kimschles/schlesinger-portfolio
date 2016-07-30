@@ -1,6 +1,7 @@
 .portfolio-header {
   position: relative;
-  background-image: url(images/header-bg.jpg);
+  background-image: url(images/footer-image.jpg);
+  background-size: cover;
 }
 
 .portfolio-header .mdl-layout__header-row {
@@ -13,7 +14,7 @@
 .mdl-layout__title {
   font-size: 14px;
   text-align: center;
-  font-weight: 300;
+  font-weight: 700;
 }
 
 .is-compact .mdl-layout__title span {
@@ -164,7 +165,7 @@ img.article-image {
 }
 
 footer {
-  background-image: url(images/footer-background.png);
-  background-size: cover;
+  rgba(228, 228, 228, 1);
+  /*background-image: url(images/footer-image.jpg);
+  background-size: cover;*/
 }
-
