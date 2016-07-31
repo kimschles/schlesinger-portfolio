@@ -1,7 +1,6 @@
 .portfolio-header {
-  position: relative;
-  background-image: url(images/footer-image.jpg);
-  background-size: cover;
+  background-color: #247BA0;
+  color: #f4f4f4;
 }
 
 .portfolio-header .mdl-layout__header-row {
@@ -60,6 +59,7 @@
       -ms-flex: 1;
           flex: 1;
   line-height: 42px;
+  color: #f4f4f4;
 }
 
 .portfolio-header .mdl-layout__drawer-button {
@@ -79,7 +79,7 @@
   position: absolute;
   bottom: 0;
   left: 0;
-  background-color: rgb(255,64,129);
+  background-color: #DC0073;
   left: 15%;
 }
 
@@ -159,13 +159,8 @@ img.article-image {
   width: 100%;
 }
 
-.portfolio-contact form {
-  max-width: 550px;
-  margin: auto;
-}
 
-footer {
-  rgba(228, 228, 228, 1);
-  /*background-image: url(images/footer-image.jpg);
-  background-size: cover;*/
+.mdl-mini-footer {
+  background-color: #247BA0;
+  color: #f4f4f4;
 }
