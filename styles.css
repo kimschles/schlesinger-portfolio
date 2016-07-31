@@ -110,12 +110,16 @@
 }
 
 .demo-content {
-  padding: 80px;
-
+  padding: 70px;
 }
 
 img.article-image {
   width: 100%;
+  height: auto;
+}
+
+img.headshot-image {
+  width: 50%;
   height: auto;
 }
 
@@ -163,7 +167,6 @@ img.article-image {
 .portfolio-contact .mdl-textfield {
   width: 100%;
 }
-
 
 .mdl-mini-footer {
   background-color: #247BA0;
