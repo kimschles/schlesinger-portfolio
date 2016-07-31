@@ -7,7 +7,7 @@
   padding: 0;
   -webkit-justify-content: center;
       -ms-flex-pack: center;
-          justify-content: center;
+          justify-content: center;demo-content
 }
 
 .mdl-layout__title {
@@ -107,6 +107,11 @@
   height: 52px;
   padding: 16px;
   background: rgba(0, 0, 0, 0.2);
+}
+
+.demo-content {
+  padding: 80px;
+
 }
 
 img.article-image {
