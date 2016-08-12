@@ -153,6 +153,18 @@ img.article-image {
     display: flex;
 }
 
+.why-card-wide.mdl-card {
+  width: 90%;
+}
+.why-card-wide > .mdl-card__title {
+  color: #fff;
+  height: 176px;
+  background: #247BA0;
+}
+.why-card-wide > .mdl-card__menu {
+  color: #fff;
+}
+
 .portfolio-contact .mdl-textfield {
   width: 100%;
 }
