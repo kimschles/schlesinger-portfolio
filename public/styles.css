@@ -1,6 +1,6 @@
 .portfolio-header {
-  background-color: #247BA0;
-  color: #f4f4f4;
+  background-color: #57677F;
+  color: #FAFCFF;
 }
 
 .portfolio-header .mdl-layout__header-row {
@@ -8,6 +8,10 @@
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;demo-content
+}
+
+a {
+  color: #050505;
 }
 
 .mdl-layout__title {
@@ -79,7 +83,7 @@
   position: absolute;
   bottom: 0;
   left: 0;
-  background-color: #DC0073;
+  background-color: #f4f4f4;
   left: 15%;
 }
 
@@ -110,6 +114,11 @@ img.article-image {
   width: 50%;
   display: block;
   margin: 0 auto;
+}
+
+/*background for images */
+.mdl-card__media {
+  background-color: #E7E9EC;
 }
 
 .portfolio-max-width {
@@ -170,6 +179,6 @@ img.article-image {
 }
 
 .mdl-mini-footer {
-  background-color: #247BA0;
-  color: #f4f4f4;
+  background-color: #57677F;
+  color: #FAFCFF;
 }

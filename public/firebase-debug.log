@@ -1,0 +1,24 @@
+[debug] [2017-08-24T04:16:05.688Z] ----------------------------------------------------------------------
+[debug] [2017-08-24T04:16:05.696Z] Command:      /usr/local/Cellar/node/8.1.4/bin/node /usr/local/bin/firebase open
+[debug] [2017-08-24T04:16:05.696Z] CLI Version:  3.9.1
+[debug] [2017-08-24T04:16:05.696Z] Platform:     darwin
+[debug] [2017-08-24T04:16:05.696Z] Node Version: v8.1.4
+[debug] [2017-08-24T04:16:05.699Z] Time:         Wed Aug 23 2017 21:16:05 GMT-0700 (PDT)
+[debug] [2017-08-24T04:16:05.699Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-08-24T04:16:05.747Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2017-08-24T04:16:05.747Z] > authorizing via signed-in user
+[debug] [2017-08-24T04:16:06.024Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-08-24T04:16:06.025Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/2tU94BMm5fn1osVO8_tOXgJs6D_uvqKa7WzLFBW7Ou0',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Wed Aug 23 2017 21:16:06 GMT-0700 (PDT)
+[debug] [2017-08-24T04:16:06.635Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-24T04:16:06.654Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/kims-portfolio-site  
+ Wed Aug 23 2017 21:16:06 GMT-0700 (PDT)
+[debug] [2017-08-24T04:16:07.189Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-24T04:16:07.190Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/kims-portfolio-site/tokens  
+ Wed Aug 23 2017 21:16:07 GMT-0700 (PDT)
+[debug] [2017-08-24T04:16:07.783Z] <<< HTTP RESPONSE 200
